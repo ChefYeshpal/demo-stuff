@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 2em 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: normal;
+        }
+        nav {
+            margin-top: 1em;
+        }
+        nav a {
+            color: #ecf0f1;
+            margin: 0 1em;
+            text-decoration: none;
+        }
+        section {
+            padding: 2em 1.5em;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .portfolio {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .portfolio-item {
+            width: 30%;
+            background-color: #c2daf1;
+            margin-bottom: 2em;
+            padding: 1em;
+            border-radius: 8px;
+        }
+        .portfolio-item h3 {
+            margin-top: 0;
+            color: #2980b9;
+        }
+        footer {
+            text-align: center;
+            padding: 2em 0;
+            background-color: #34495e;
+            color: #ecf0f1;
+        }
+        footer a {
+            color: #1a8ebc;
+            text-decoration: none;
+        }
+        /* Blog Styles */
+        .blog-post {
+            margin-bottom: 1.5em;
+        }
+        .blog-post h3 {
+            color: #2980b9;
+            margin-bottom: 0.5em;
+        }
+        .blog-post p {
+            line-height: 1.6;
+        }
+        /* Media Queries */
+        @media (max-width: 768px) {
+            .portfolio-item {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ChefYeshpal</h1>
+    <p>when you work, work</p>
+    <nav>
+        <a href="#bio">Bio</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="bio">
+    <h2>About Me</h2>
+    <p>Sup dudes, welcome to my lil teeny tiny website that I made for my personal use</p>
+    <p>Now, one may think, "What's this highschooler doin' not studyin'?", and to them, I have to say that atleast I'm doing something that kinda makes me happy right?</p>
+    <p>Not that studying does not make me happy, it really does</p>
+</section>
+
+<section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio">
+        <div class="portfolio-item">
+            <h3>Art</h3>
+            <p>Go to my <a href="https://instagram.com/notdhruva_">Instagram</a></p>
+        </div>
+        <div class="portfolio-item">
+            <h3>Music</h3>
+            <p>Had gotten Senior Diploma in Hindustani Classical Music in 2023</p>
+            <p>Had gotten batchleors in Hindustani Classical Music in 2024</p>
+        </div>
+        <div class="portfolio-item">
+            <h3>Education</h3>
+            <p>80% in 10th</p>
+            <p>Doing 12th currently, and studying for JEE mains</p>
+        </div>
+    </div>
+</section>
+
+<section id="blog">
+    <h2>Blog</h2>
+    <div class="blog-post">
+        <h3>Latest Blog Post</h3>
+        <p>This is where I can share my very own thoughts, ideas, and experiences through blog posts.</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Connect with Me</h2>
+    <p>You can find me on the following platforms:</p>
+    <footer>
+        <a href="https://twitter.com/dhruvalization">Twitter</a> |
+        <a href="https://instagram.com/notdhruva_">Instagram</a> |
+        <a href="https://linkedin.com">LinkedIn</a> |
+        <a href="https://github.com/ChefYeshpal">GitHub</a>
+    </footer>
+</section>
+
+</body>
+</html>
